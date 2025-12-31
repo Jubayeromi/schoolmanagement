@@ -1,4 +1,5 @@
-
+import os
+import dj_database_url
 Django==4.2.11
 django-widget-tweaks==1.4.8
 pytz==2020.1
@@ -9,3 +10,9 @@ psycopg2-binary   # PostgreSQL driver
 dj-database-url   # parse DATABASE_URL env variable
 setuptools        # fixes distutils error
 wheel             # helps with building packages
+
+
+
+STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'

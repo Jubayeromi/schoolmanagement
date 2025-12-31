@@ -1,5 +1,4 @@
-import os
-import dj_database_url
+
 Django==4.2.11
 django-widget-tweaks==1.4.8
 pytz==2020.1

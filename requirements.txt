@@ -3,3 +3,9 @@ Django==3.0.5
 django-widget-tweaks==1.4.8
 pytz==2020.1
 sqlparse==0.3.1
+gunicorn          # production WSGI server
+whitenoise        # serve static files
+psycopg2-binary   # PostgreSQL driver
+dj-database-url   # parse DATABASE_URL env variable
+setuptools        # fixes distutils error
+wheel             # helps with building packages

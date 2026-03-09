@@ -5,7 +5,7 @@
 ### Homepage
 ![homepage snap](https://github.com/sumitkumar1503/schoolmanagement/blob/master/static/screenshots/homepage.png?raw=true)
 ### Admin Dashboard
-![dashboard snap](https://github.com/sumitkumar1503/schoolmanagement/blob/master/static/screenshots/adminhomepage.png?raw=true)
+![dashboard snap](https://github.com/Jubayeromi/schoolmanagement/blob/master/static/images/bg.png?raw=true)
 ### Admin Manage Teacher
 ![invoice snap](https://github.com/sumitkumar1503/schoolmanagement/blob/master/static/screenshots/adminteacher.png?raw=true)
 ### Attendance

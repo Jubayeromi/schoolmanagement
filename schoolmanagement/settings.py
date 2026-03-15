@@ -91,9 +91,11 @@ WSGI_APPLICATION = 'schoolmanagement.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
+
+
 DATABASES = {
     'default': dj_database_url.config(
-        default=os.environ.get("postgresql://postresql_mq9s_user:jkYLCSgGXl92SOfZBZzviQnXDuXwkrnO@dpg-d6r58lma2pns73aauei0-a.virginia-postgres.render.com/postresql_mq9s")
+        default=os.environ.get("DATABASE_URL")
     )
 }
 

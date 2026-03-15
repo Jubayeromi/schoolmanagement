@@ -92,10 +92,9 @@ WSGI_APPLICATION = 'schoolmanagement.wsgi.application'
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-    }
+    'default': dj_database_url.config(
+        default=os.environ.get("postgresql://postresql_mq9s_user:jkYLCSgGXl92SOfZBZzviQnXDuXwkrnO@dpg-d6r58lma2pns73aauei0-a.virginia-postgres.render.com/postresql_mq9s")
+    )
 }
 
 
